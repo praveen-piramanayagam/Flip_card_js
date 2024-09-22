@@ -1,0 +1,73 @@
+* {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+    margin: 30px;
+}
+
+.flex img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+img:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.text{
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+.button {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+  }
+  .button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .btn{
+    margin-top: 20px;
+  }
+@media screen and (max-width: 600px) {
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        justify-content: center;
+    }
+    .text {
+        inline-size: 400px;
+        overflow-wrap: anywhere;
+        margin: auto;
+        padding: 25px;
+    }
+    .button2{
+        width: 330px;
+    }
+}
