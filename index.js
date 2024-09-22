@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         resultDisplay.innerHTML = '' ;
         setTimeout(() => {
           resultDisplay1.innerHTML = 'Congratulations! You found total ' + totalcard + ' pairs';
-        }, 3000);
+        }, 1000);
       }
     }
 
