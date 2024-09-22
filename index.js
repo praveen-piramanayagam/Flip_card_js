@@ -74,8 +74,10 @@ document.addEventListener('DOMContentLoaded', () => {
       let totalcard = cardArray.length / 2;
       if (cardsWon.length === cardArray.length / 2) {
         h3.innerHTML = '';
-        resultDisplay1.innerHTML = '' ;
-         resultDisplay1.innerHTML = 'Congratulations! You found total ' + totalcard + ' pairs';
+        resultDisplay.innerHTML = '' ;
+        setTimeout(() => {
+          resultDisplay1.innerHTML = 'Congratulations! You found total ' + totalcard + ' pairs';
+        }, 3000);
       }
     }
 
